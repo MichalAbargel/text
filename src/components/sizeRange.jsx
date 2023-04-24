@@ -5,7 +5,7 @@ class SizeRange extends Component {
         return (
             <div>
                 <label htmlFor="customRange1" className="form-label">Size</label>
-                <input type="range" className="form-range" id="sizeRange"></input>
+                <input type="range" className="form-range" id="sizeRange" onChange={this.props.onSizeChanged}></input>
             </div>
         );
     }
